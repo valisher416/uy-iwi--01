@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+header{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 1440px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    margin: 0 auto;
+    margin-bottom:700px ;
+    background-color: rgba(19, 145, 206, 0.7);
+}
+
+.novbar{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.novbar--text{
+    display: flex;
+    gap: 32px;
+    font-size: 16px;
+    
+}
+.aaa{
+    color: white;
+}
+.aaaa{
+    width: 116px;
+height: 37px;
+opacity: 1;
+background-color: white;
+top: 49px;
+left: 1164px;
+gap: 10px;
+border-radius: 24px;
+padding-top: 9px;
+padding-right: 18px;
+padding-bottom: 9px;
+padding-left: 18px;
+
+
+}
+
+.xero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contend{
+    background-color: rgba(19, 145, 206, 0.7);
+    padding-top: 150px;
+    padding-bottom: 138px;
+
+}
+
+.h1{
+    font-family: Roboto;
+font-weight: 700;
+font-size: 92px;
+line-height: 100%;
+letter-spacing: 0%;
+color: rgba(37, 70, 138, 1);
+}
+.h4{
+    font-family: Roboto;
+font-weight: 400;
+font-size: 32px;
+line-height: 100%;
+padding-top: 10px;
+letter-spacing: 0%;
+color: rgba(37, 70, 138, 1);
+
+}
+
+
+
+.pp{
+    font-family: Roboto;
+font-weight: 400;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+padding-top: 25px;
+color: rgba(37, 70, 138, 1);
+}
+    
+
+.xero--btn{
+    width: 263.5294189453125;
+height: 51;
+opacity: 1;
+top: 454px;
+left: 160px;
+gap: 10px;
+font-weight: 500;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 4%;
+cursor: pointer;
+border-radius: 26px;
+padding-top: 15px;
+padding-right: 85px;
+padding-bottom: 15px;
+padding-left: 85px;
+background-color: rgba(247, 186, 14, 1);
+border: none;
+margin-top: 24px;
+}
+
+.contend1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 167px;
+    transition: 3s;
+    padding-bottom: 63px;
+}
+.contend2{
+    background-color: rgba(233, 245, 255, 1);
+}
+
+.card10{
+    width: 352px;
+height: 189px;
+cursor: pointer;
+top: 819px;
+left: 160px;
+border-radius: 8px;
+background-color: rgba(19, 145, 206, 1);
+text-align: center;
+color: white;
+font-size: 17px;
+
+align-content: center;
+
+}
+.card9{
+        width: 352px;
+height: 189px;
+top: 819px;
+left: 160px;
+border-radius: 8px;
+background-color: rgba(19, 145, 206, 1);
+text-align: center;
+align-content: center;
+color: white;
+font-size: 20px;
+cursor: pointer;
+padding: 10px;
+}
+.card8{
+            width: 352px;
+height: 189px;
+top: 819px;
+left: 160px;
+border-radius: 8px;
+background-color: rgba(19, 145, 206, 1);
+text-align: center;
+align-content: center;
+cursor: pointer;
+color: white;
+font-size: 20px;
+padding: 10px;
+}
+.contend1 :hover{
+    background-color: rgb(232, 231, 231);
+    color: rgba(0, 0, 0, 0.662);
+}
+
+.contend3{
+    justify-content: space-between;
+}
+
+
+main{
+    width: 1440px;
+    margin: 0 auto;
+    background-color: rgba(233, 245, 255, 1);
+}
+
+
+
+.contend--text{
+    font-family: Inter;
+font-weight: 300;
+font-size: 30px;
+line-height: 130%;
+text-align: center;
+vertical-align: middle;
+color: rgba(19, 145, 206, 1);
+padding-bottom: 120px;
+padding-top: 20px;
+}
+
+
+.contend--cards1{
+    display: flex;
+    justify-content: space-between;
+}
+.contend--cards1 h3{
+    font-family: Inter;
+font-weight: 400;
+font-size: 16px;
+line-height: 134%;
+letter-spacing: 1%;
+vertical-align: middle;
+text-transform: uppercase;
+color: rgba(37, 71, 138, 0.823);
+padding-bottom: 6px;
+
+}
+.contend--cards1 h1{
+    font-family: Inter;
+font-weight: 700px;
+font-size: 32px;
+line-height: 134%;
+letter-spacing: 1%;
+vertical-align: middle;
+color: rgba(19, 145, 206, 1);
+padding-bottom: 10px;
+}
+
+.contend--cards1 p{
+    font-family: Inter;
+font-weight: 400px;
+font-size: 18px;
+line-height: 130%;
+letter-spacing: 2%;
+vertical-align: middle;
+color: rgba(79, 79, 79, 1);
+}
+
+.as{
+    font-family: Inter;
+font-weight: 400;
+font-size: 16px;
+color: rgba(37, 70, 138, 1);
+line-height: 134%;
+letter-spacing: 1%;
+vertical-align: middle;
+text-transform: uppercase;
+
+}
+.ass{
+    font-family: Inter;
+font-weight: 700;
+font-size: 32px;
+line-height: 134%;
+letter-spacing: 1%;
+vertical-align: middle;
+color: rgba(19, 145, 206, 1);
+padding-top: 16px;
+}
+.asss{
+    font-family: Inter;
+font-weight: 400;
+font-size: 18px;
+line-height: 134%;
+letter-spacing: 2%;
+vertical-align: middle;
+padding-top: 30px;
+}
+.assa{
+    font-family: Inter;
+font-weight: 600;
+font-size: 22px;
+color: rgba(19, 145, 206, 1);
+line-height: 134%;
+letter-spacing: 2%;
+vertical-align: middle;
+padding-top: 5px;
+padding-bottom: 10px;
+}
+
+.sa{
+    display: flex;
+    gap: 25px;
+    padding-top:  10px;
+}
+.hh1{
+    font-family: Inter;
+font-weight: 400px;
+font-size: 16px;
+line-height: 134%;
+letter-spacing: 2%;
+color:rgba(79, 79, 79, 1);
+
+}
+
+.be{
+display: flex;
+justify-content: space-between;
+padding-top: 80px;
+}
+.sas{
+    display: flex;
+    gap: 20px;
+    padding-top:8px ;
+}
+.content5{
+    display: flex;
+    justify-content: space-between;    
+}
+
+
+.hhh{
+    font-family: Inter;
+font-weight: 400;
+font-size: 16px;
+line-height: 134%;
+letter-spacing: 1%;
+vertical-align: middle;
+text-transform: uppercase;
+color: rgba(37, 70, 138, 1);
+}
+.hah{
+    font-family: Inter;
+font-weight: 700;
+font-size: 32px;
+line-height: 134%;
+letter-spacing: 1%;
+vertical-align: middle;
+color: rgba(19, 145, 206, 1);
+}
+.text-text{
+    font-family: Inter;
+font-weight: 400;
+font-size: 25px;
+line-height: 134%;
+letter-spacing: 2%;
+color: rgba(79, 79, 79, 1);
+}
+
+#contend8{
+    padding-top: 100px;
+}
+
+#footerr{
+  width: 1440px;
+height: 144px;
+padding-top: 32px;
+margin: 0 auto;
+background-color: rgba(19, 145, 206, 1);
+}
+.forr{
+    display: flex;
+    justify-content: space-between;
+}
+
+.forr h1{
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.forr span{
+    color: white;
+}
+
+
+
+.contend--cards1 img:hover{
+    width: 630px;
+}
+.be .img2:hover{
+    width: 630px;
+}
+
+.content5 .soft img:hover{
+    width: 630px;
+}
+
+
+
+
+
+
+
+
+
+
+transition
